@@ -273,7 +273,7 @@ class Player {
         "When you arrive at the tower you hear noises. The wooden door is open and you enter the tower. You go down the stairs and see a room soaked in blood. You look around and see a vampire hanging from the ceiling."
           .brightWhite
       );
-      this.credits();
+      this.right();
     } else if (index === 1) {
       this.bigSpace();
       this.left();
