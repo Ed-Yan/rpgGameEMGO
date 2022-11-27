@@ -79,13 +79,132 @@ class Player {
       "You draw your sword and attack the vampire.",
       "You wish someone would help you.",
     ];
+
+    console.log(`
+          ⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⡈⠛⢉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⢿⣿⣿⣿⣿⣿⠀⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢰⣿⡏⠀⢸⣿⣿⣿⣿⡇⢸⣷⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣼⣿⠁⠀⢸⣿⣿⣿⣿⠁⠀⠙⠻⢿⣿⣶⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠛⠋⠀⠀⠸⣿⣿⣿⡏⠀⠀⠀⠀⠀⠈⠉⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣄⠙⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣦⠈⢿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⡟⠀⠀⠻⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⠟⠁⠀⠀⠀⠘⢿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢾⣿⠟⠁⠀⠀⠀⠀⠀⠀⠈⢻⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+`.rainbow);
+
+    this.bigSpace();
+
+    console.log("When you arrive at the tower you hear noises. The wooden door is open and you enter the tower. You go down the stairs and see a room soaked in blood. You look around and see a vampire hanging from the ceiling.".brightWhite);
+          console.log(`
+
+                     +
+                     +
+                    <_>
+                   :::::
+                   :::::
+                   :::::
+                   HHHHH
+                  :::i:::
+                  :::i:::
+                  :::i:::
+                  :::i:::
+                  :::i:::
+                  :::i:::
+                 ::::i::::
+                 ::::i::::
+                ***********
+               *************
+              :::::::::::::::
+
+`.rainbow);
+
+
+    this.bigSpace();
+
+console.log(`
+              __.......__
+            .-:::::::::::::-.
+          .:::''':::::::''':::.
+        .:::'     :::::     ':::. 
+   .'\  ::'   ^^^  ':'  ^^^   ::  /'.
+  :   \ ::   _.__       __._   :: /   ;
+ :     \`: .' ___\     /___ '. :'/     ; 
+:       /\   (_|_)\   /(_|_)   /\       ;
+:      / .\   __.' ) ( '.__   /. \      ;
+:      \ (        {   }        ) /      ; 
+ :      '-(     .  ^"^  .     )-'      ;
+  '.       \  .'<'-._.-'>'.  /       .'
+    '.      \    \;'.';/    /      .'
+ '._    '-._       _.-'    _.'
+       .''-.__ .''-._.-''. __.-''.
+     .'       '.         .'       '.
+   .'           '-.   .-'           '.
+
+
+`.rainbow);
+
     const index = ask.keyInSelect(
       right,
-      "When you arrive at the tower you hear noises. The wooden door is open and you enter the tower. You go down the stairs and see a room soaked in blood. You look around and see a vampire hanging from the ceiling."
+      "What do you do ?"
         .brightWhite
     );
+    
     if (index === 0) {
       this.bigSpace();
+
+           
+
+      console.log(`
+                         _,--~~~,
+                       .'        '.
+                       |           ;
+                       |           :
+                      /_,-==/     .'
+                    /''\*  ;      :      
+                  :'    '-        :      
+                  '~*,'     .     :      
+                     :__.,._  ';  :      
+                     '\'    )  '  ',     
+                         \-/  '     )     
+                         :'          \ _
+                          '~---,-~    ',)
+     \---,,  ___                   \     /~'\
+    \---__ ';~~~-------------~~~(| _-'    ',
+ \---, ' \'-._____     _______.---'         \
+ \--- '~~-',      ~~~~~~                     ',
+\----      )                                   \
+\----.  __ /                                    '-
+ \----'' -~____
+               ~~~~~--------,.___     
+                                 '\_
+
+`.rainbow);
+
+ this.bigSpace();
+
+      console.log(`
+
+        __   __
+     .-'  "."  '-.
+   .'   ___,___   '.
+  ;__.-; | | | ;-.__;
+  | \  | | | | |  / |
+   \ \/'"'"'"'"'\/ /
+    \_.-,-,-,-,-._/
+     \'-:_|_|_:-'/
+      '.       .'
+        ''---''
+
+        `.rainbow);
+
+      this.bigSpace();
+
       console.log(
         "The vampire suddenly stands in front of you and attacks you with his strong claws. You fall straight to the ground and realize how your life is being sucked out. GAME OVER"
           .brightWhite
@@ -93,6 +212,55 @@ class Player {
       this.credits();
     } else if (index === 1) {
       this.bigSpace();
+
+            this.bigSpace();
+
+      console.log(`
+
+                         _,--~~~,
+                       .'        '.
+                       |           ;
+                       |           :
+                      /_,-==/     .'
+                    /''\*  ;      :      
+                  :'    '-        :      
+                  '~*,'     .     :      
+                     :__.,._  ';  :      
+                     '\'    )  '  ',     
+                         \-/  '     )     
+                         :'          \ _
+                          '~---,-~    ',)
+          ___                   \     /~'\
+    \---__ ';~~~-------------~~~(| _-'    ',
+  ---, ' \'-._____     _______.---'         \
+ \--- '~~-',      ~~~~~~                     ',
+\----      )                                   \
+\----.  __ /                                    '-
+ \----'' -~____  
+               ~~~~~--------,.___     
+                                 '\_
+
+
+                                 `.rainbow);
+
+    this.bigSpace();
+
+
+      console.log(`
+
+        __   __
+     .-'  "."  '-.
+   .'   ___,___   '.
+  ;__.-; | | | ;-.__;
+  | \  | | | | |  / |
+   \ \/'"'"'"'"'\/ /
+    \_.-,-,-,-,-._/
+     \'-:_|_|_:-'/
+      '.       .'
+        ''---''
+
+        `.rainbow);
+
       console.log(
         "The vampire suddenly stands in front of you and attacks you with his strong claws. You fall straight to the ground and realize how your life is being sucked out. GAME OVER"
           .brightWhite
@@ -108,11 +276,55 @@ class Player {
           .brightWhite
       );
       if (usersAns.toLowerCase() === "mirror") {
-        this.bigSpace();
+
+
+
+                
+
+
         console.log(
-          "The man moves his hand and the werewolf stops and slowly falls to the ground. You look around, but the strange man has disappeared. You wonder who he was. The people return to the alley and thank you like a hero. WINNER."
+          "The man moves his cane and the werewolf stops and slowly falls to the ground. You look around, but the strange man has disappeared. You wonder who he was. The people return to the alley and thank you like a hero. WINNER."
             .brightWhite
         );
+        this.bigSpace();
+
+                console.log(`
+
+            ,:' '..;
+            '. ,;;'%
+            +;;'%%%%%
+             /- %,)%%
+             '   \ %%
+              =  )/ \
+              '-'/ / \
+                /\/.-.\
+               |  (    |
+               |  |   ||
+               |  |   ||
+           _.-----'   ||
+          / \________,'|
+         (((/  |       |
+         //    |       |
+        //     |\      |
+       //      | \     |
+      //       |  \    |
+     //        |   \   |
+    //         |    \  |
+   //          |    |\ |
+  //           |    | \|
+ //            \    \
+c'             |\    \
+               | \    \
+               |  \    \
+               |.' \    \
+              _\    \.-' \ 
+             (___.-(__.'\/</>
+             
+             `.rainbow);
+        
+        
+        this.bigSpace();
+
         this.credits();
       } else {
         this.bigSpace();
@@ -125,6 +337,17 @@ class Player {
   }
 
   rightVampire() {
+
+    console.log(`
+
+   _       |\
+  [_[[[[[[[| |========================================D
+           |/
+
+`);
+
+        this.bigSpace();
+
     console.log(
       "You draw your sword and swing out for a strong blow. You hit the vampire."
         .brightWhite
@@ -136,9 +359,36 @@ class Player {
       "The vampire was hit, but he gets up again. He jumps towards you and hits you with his hard claws. You stagger but are still alive. You take the last blow."
         .brightWhite
     );
+
+        this.bigSpace();
+
+            console.log(`
+
+   _       |\
+  [_[[[[[[[| |========================================D
+           |/
+
+`.rainbow);
+
+        this.bigSpace();
+
     vampire.health -= Math.floor(Math.random() * 4 + 9);
     if (vampire.health <= 0) {
       this.bigSpace();
+
+      console.log(`  
+
+               .---.
+     |________/     \________
+()===|_______( () () )_______>
+     |        \  M  /
+               |HHH|
+               '---'
+
+`).rainbow;
+
+      this.bigSpace();
+
       console.log(
         "You hit the vampire and he falls to the ground. The people return to the tower and thank you like a hero. WINNER."
           .brightWhite
@@ -180,13 +430,129 @@ class Player {
       "You draw your sword and attack the werewolf.",
       "You wish someone would help you.",
     ];
+
+console.log(`
+
+          ⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⡈⠛⢉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⢿⣿⣿⣿⣿⣿⠀⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢰⣿⡏⠀⢸⣿⣿⣿⣿⡇⢸⣷⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣼⣿⠁⠀⢸⣿⣿⣿⣿⠁⠀⠙⠻⢿⣿⣶⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠛⠋⠀⠀⠸⣿⣿⣿⡏⠀⠀⠀⠀⠀⠈⠉⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣄⠙⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣦⠈⢿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⡟⠀⠀⠻⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⠟⠁⠀⠀⠀⠘⢿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢾⣿⠟⠁⠀⠀⠀⠀⠀⠀⠈⢻⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+
+`.rainbow);
+
+
+    console.log("When you arrive at the Alley, people run towards you full of fear. A big werewolf jumps out from behind them. He looks you in the eye."
+        .brightWhite);
+
+   
+   
+        this.bigSpace();
+
+   
+
+    console.log(`
+
+
+|.'',                 ,''.|
+|.'.'',                                 ,''.'.|
+|.'.'.'',                             ,''.'.'.|
+|.'.'.'.'',                         ,''.'.'.'.|
+|.'.'.'.'.|                         |.'.'.'.'.|
+|.'.'.'.'.|===;                 ;===|.'.'.'.'.|
+|.'.'.'.'.|:::|',             ,'|:::|.'.'.'.'.|
+|.'.'.'.'.|---|'.|, _______ ,|.'|---|.'.'.'.'.|
+|.'.'.'.'.|:::|'.|'|???????|'|.'|:::|.'.'.'.'.|
+|,',',',',|---|',|'|???????|'|,'|---|,',',',',|
+|.'.'.'.'.|:::|'.|'|???????|'|.'|:::|.'.'.'.'.|
+|.'.'.'.'.|---|','   /%%%\   ','|---|.'.'.'.'.|
+|.'.'.'.'.|===:'    /%%%%%\    ':===|.'.'.'.'.|
+|.'.'.'.'.|%%%%%%%%%%%%%%%%%%%%%%%%%|.'.'.'.'.|
+|.'.'.'.','       /%%%%%%%%%\       ','.'.'.'.|
+|.'.'.','        /%%%%%%%%%%%\        ','.'.'.|
+|.'.','         /%%%%%%%%%%%%%\         ','.'.|
+|.','          /%%%%%%%%%%%%%%%\          ','.|
+|;____________/%%%%%%%%%%%%%%%%%\____________;|
+
+`.rainbow);
+
+      this.bigSpace();
+
+
+      console.log(`
+
+     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣄⠤⠐⠂⠘⠗⠦⣄⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣀⠤⠊⡟⣷⣄⠀⠀⠀⣄⣠⣿⣄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠔⠉⠀⠀⠀⡜⠈⠃⠀⠀⠀⠾⢾⣿⣿⣷⣄⠀⠀⠀⠀
+⠀⠀⠀⢀⠞⠀⠀⠀⠀⢀⣧⡮⡀⣄⠀⣠⣤⢄⢽⣿⣿⣿⡇⠀⠀⠀
+⠀⠀⢀⡊⠀⠀⠀⢰⠾⣿⣿⡷⠀⠀⠩⢀⣽⣾⣿⣿⣿⣿⠟⠀⠀⠀
+⠀⠀⠸⡷⠀⠀⢀⢼⠒⢸⣿⣯⣿⣜⣵⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀
+⠀⠀⢀⣷⢄⠀⠀⠘⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀
+⠀⠀⠘⢹⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⢻⣿⣿⣷⣆⠀⠀
+⠀⠀⢠⠀⣀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⢻⣿⣿⣿⡀⠀
+⠀⢀⣿⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠰⠼⢻⣿⣏⡇⠀
+⠀⣿⣿⠒⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠉⠣⡀⠀⠀⠒⡹⠛⠜⠁⠀
+⠀⢻⣿⣄⠀⣿⣿⣿⣿⣿⣿⣿⣿⠏⠚⠁⠀⠈⢆⠀⠀⠀⠀⠀⠀⠀
+⠀⢸⣿⣿⣷⣿⣿⣿⣿⠟⠛⣿⠋⠀⠀⠀⠀⠀⢸⡀⠀⠀⠀⠀⠀⠀
+⠀⢸⣿⣿⣿⣿⡿⠟⠁⠀⠀⠙⢦⡀⣄⣠⠴⠢⣾⣿⣿⣿⣶⣄⠀⠀
+⠀⣾⣿⣿⣿⣿⣷⣶⣶⣄⠀⠀⠀⣁⠈⢇⠀⢀⣽⣿⣿⣿⣿⣿⣦⠀
+⠀⠈⠙⢿⣿⣿⣿⣿⠛⢿⡄⠀⠸⣿⣦⣈⣷⣿⡏⠙⠛⠛⠻⢿⣿⡆
+⠀⠀⣠⣿⣿⡈⢿⣿⡁⡘⠀⠀⠀⣹⣿⣿⠛⠛⠁⠀⠀⠀⠀⠀⢿⠇
+⢀⣴⣿⣿⠟⠀⠘⠻⠿⠃⠀⠀⠸⢿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠃⠀
+⢸⣿⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣆⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠿⢿⣿⣿⡿⠿⠂⠀⠀⠀⠀⠀⠀
+
+`.rainbow);
+
+this.bigSpace();
+
+
+ this.bigSpace();
+
+
     const index = ask.keyInSelect(
       left,
-      "When you arrive at the Alley, people run towards you full of fear. A big werewolf jumps out from behind them. He looks you in the eye."
-        .brightWhite
+      "What do you do ?".brightWhite
     );
+
+      
+
     if (index === 0) {
       this.bigSpace();
+
+      console.log(`
+
+
+⣿⣿⣿⣿⣿⣿⣿⡿⠛⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⠏⢹⣿⠀⢠⠾⠿⣿⣿⣿⣇⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣆⠀⠉⠀⠀⣠⣦⣬⣿⣿⣿⣄⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⣼⣿⣿⣿
+⣿⣿⣿⣿⣿⣷⡄⠀⠀⢻⣿⡿⠋⠉⠀⠀⠀⠀⠀⠀⣰⡿⣦⣴⣿⣶⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣇⠀⠀⠈⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠈⠁⢀⣿⣿⣿⣿⣿
+⣿⣿⣿⠋⢿⣿⣿⣤⣤⣤⣄⠀⠀⠀⠀⠀⠀⠀⢀⣴⣶⣿⣿⣿⠿⠿⠿⣿⣿⣿
+⣿⣿⡏⠀⠸⠟⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⡀⠀⠙⠿⣿⠋⠀⠀⣴⣶⣿⣿⣿
+⣿⣿⠷⠀⠀⠀⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⣸⣷⡀⠀⠀⠀⢀⣀⠀⠀⣀⠈⢻⣿
+⣿⣿⣄⠀⠀⠀⠘⢿⣿⠟⠁⠀⠀⠀⠀⠀⠙⠛⠿⣶⣶⣿⣿⣿⣧⠀⣿⣧⣼⣿
+⣿⣿⣿⣷⣶⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠹⣿⣿⣿⣿⣴⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⠿⣿⣿⠀⠀⠀⠀⢠⣿⣿⣷⣄⠀⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⡟⠁⠀⠀⠉⠀⠀⠀⣰⣿⣿⣿⡿⠋⠀⣀⣀⣀⣠⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⡟⠀⠀⠀⣶⣦⣤⣴⣾⣿⣿⣿⡟⠁⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⠁⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣯⣤⣤⣤⣤⣬⣿⣿⣿⣿⣿⣿⣿⣷⣤⣤⣤⣤⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+
+`.rainbow);
+
+      this.bigSpace();
+
       console.log(
         "The werewolf is faster and hits you with its claws. You fall to the ground. Next time I should have asked for help, you think to yourself. GAME OVER."
           .brightWhite
@@ -194,10 +560,38 @@ class Player {
       this.credits();
     } else if (index === 1) {
       this.bigSpace();
+
+
+      console.log(`
+
+
+⣿⣿⣿⣿⣿⣿⣿⡿⠛⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⠏⢹⣿⠀⢠⠾⠿⣿⣿⣿⣇⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣆⠀⠉⠀⠀⣠⣦⣬⣿⣿⣿⣄⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⣼⣿⣿⣿
+⣿⣿⣿⣿⣿⣷⡄⠀⠀⢻⣿⡿⠋⠉⠀⠀⠀⠀⠀⠀⣰⡿⣦⣴⣿⣶⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣇⠀⠀⠈⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠈⠁⢀⣿⣿⣿⣿⣿
+⣿⣿⣿⠋⢿⣿⣿⣤⣤⣤⣄⠀⠀⠀⠀⠀⠀⠀⢀⣴⣶⣿⣿⣿⠿⠿⠿⣿⣿⣿
+⣿⣿⡏⠀⠸⠟⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⡀⠀⠙⠿⣿⠋⠀⠀⣴⣶⣿⣿⣿
+⣿⣿⠷⠀⠀⠀⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⣸⣷⡀⠀⠀⠀⢀⣀⠀⠀⣀⠈⢻⣿
+⣿⣿⣄⠀⠀⠀⠘⢿⣿⠟⠁⠀⠀⠀⠀⠀⠙⠛⠿⣶⣶⣿⣿⣿⣧⠀⣿⣧⣼⣿
+⣿⣿⣿⣷⣶⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠹⣿⣿⣿⣿⣴⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⠿⣿⣿⠀⠀⠀⠀⢠⣿⣿⣷⣄⠀⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⡟⠁⠀⠀⠉⠀⠀⠀⣰⣿⣿⣿⡿⠋⠀⣀⣀⣀⣠⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⡟⠀⠀⠀⣶⣦⣤⣴⣾⣿⣿⣿⡟⠁⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⠁⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣯⣤⣤⣤⣤⣬⣿⣿⣿⣿⣿⣿⣿⣷⣤⣤⣤⣤⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+
+`.rainbow);
+
+      this.bigSpace();
+
       console.log(
         "You call out to the werewolf, but he is in a blood frenzy and hits you with his claws. You fall to the ground. Next time I should have asked for help, you think to yourself. GAME OVER."
           .brightWhite
       );
+
+            this.bigSpace();
+
       this.credits();
     } else if (index === 2) {
       this.bigSpace();
@@ -211,10 +605,52 @@ class Player {
       if (usersAns.toLowerCase() === "mirror") {
         this.bigSpace();
         console.log(
-          "The man moves his hand and the werewolf stops and slowly falls to the ground. You look around, but the strange man has disappeared. You wonder who he was. The people return to the alley and thank you like a hero. WINNER."
+          "The man moves his cane and the werewolf stops and slowly falls to the ground. You look around, but the strange man has disappeared. You wonder who he was. The people return to the alley and thank you like a hero. WINNER."
             .brightWhite
         );
         this.credits();
+
+         this.bigSpace();
+
+        console.log(`
+
+            ,:' '..;
+            '. ,;;'%
+            +;;'%%%%%
+             /- %,)%%
+             '   \ %%
+              =  )/ \
+              '-'/ / \
+                /\/.-.\
+               |  (    |
+               |  |   ||
+               |  |   ||
+           _.-----'   ||
+          / \________,'|
+         (((/  |       |
+         //    |       |
+        //     |\      |
+       //      | \     |
+      //       |  \    |
+     //        |   \   |
+    //         |    \  |
+   //          |    |\ |
+  //           |    | \|
+ //            \    \
+c'             |\    \
+               | \    \
+               |  \    \
+               |.' \    \
+              _\    \.-' \ 
+             (___.-(__.'\/</>
+             
+             `.rainbow);
+
+                
+
+        this.bigSpace();
+
+
       } else {
         this.bigSpace();
         console.log("The answer was mirror".brightWhite);
@@ -230,6 +666,18 @@ class Player {
       "You draw your sword and swing out for a strong blow. You hit the werewolf."
         .brightWhite
     );
+
+        this.bigSpace();
+
+            console.log(`
+
+   _       |\
+  [_[[[[[[[| |========================================D
+           |/
+
+`.rainbow);
+
+        this.bigSpace();
     player.health -= werewolf.attack;
     werewolf.health -= player.attack;
     this.bigSpace();
@@ -240,6 +688,22 @@ class Player {
     werewolf.health -= Math.floor(Math.random() * 4 + 9);
     if (werewolf.health <= 0) {
       this.bigSpace();
+
+
+      console.log(`  
+
+               .---.
+     |________/     \________
+()===|_______( () () )_______>
+     |        \  M  /
+               |HHH|
+               '---'
+
+`.rainbow);
+
+      this.bigSpace();
+
+
       console.log(
         "You hit the werewolf and he falls to the ground. The people return to the alley and thank you like a hero. WINNER."
           .brightWhite
@@ -247,6 +711,17 @@ class Player {
       this.credits();
     } else {
       this.bigSpace();
+
+
+            console.log(`
+
+   _       |\
+  [_[[[[[[[| |========================================D
+           |/
+
+`.rainbow);
+
+        this.bigSpace();
       console.log(
         "The werewolf blocks your attack and strikes back. You fall to the ground and die. GAME OVER."
           .brightWhite
@@ -273,6 +748,7 @@ class Player {
         "When you arrive at the tower you hear noises. The wooden door is open and you enter the tower. You go down the stairs and see a room soaked in blood. You look around and see a vampire hanging from the ceiling."
           .brightWhite
       );
+
       this.right();
     } else if (index === 1) {
       this.bigSpace();
