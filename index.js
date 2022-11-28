@@ -385,7 +385,7 @@ c'             |\    \
                |HHH|
                '---'
 
-`).rainbow;
+`.rainbow);
 
       this.bigSpace();
 
