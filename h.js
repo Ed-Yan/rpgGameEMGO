@@ -1,1 +1,0 @@
-console.log(`djajdaw\n dwdw`);
